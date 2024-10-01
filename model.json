@@ -13,14 +13,14 @@
         "properties": {
           "hero": {
             "properties": {
-              "title": { "type": "string", "minLength": 1 },
-              "subtitle": { "type": "string", "minLength": 1 }
+              "title": { "type": "string" },
+              "subtitle": { "type": "string" }
             }
           },
           "footer": {
             "properties": {
-              "title": { "type": "string", "minLength": 1 },
-              "subtitle": { "type": "string", "minLength": 1 }
+              "title": { "type": "string" },
+              "subtitle": { "type": "string" }
             }
           }
         }
