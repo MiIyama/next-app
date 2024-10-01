@@ -6,30 +6,38 @@
     "content": { ":type": "text", ":richtext": true }
   },
   "pages": {
-    ":items": {
-      "title": { ":type": "line" },
-      "path": { ":type": "line" },
-      "content": {
+    "type": "object",
+    "patternProperties": {
+      "^[a-zA-Z][a-zA-Z0-9_-]*$": {
         "type": "object",
         "properties": {
-          "hero": {
+          "title": { ":type": "line" },
+          "path": { ":type": "line" },
+          "content": {
             "type": "object",
             "properties": {
-              "title": { "type": "string", "minLength": 1 },
-              "subtitle": { "type": "string", "minLength": 1 }
+              "hero": {
+                "type": "object",
+                "properties": {
+                  "title": { "type": "string", "minLength": 1 },
+                  "subtitle": { "type": "string", "minLength": 1 }
+                },
+                "required": ["title", "subtitle"]
+              },
+              "footer": {
+                "type": "object",
+                "properties": {
+                  "title": { "type": "string", "minLength": 1 },
+                  "subtitle": { "type": "string", "minLength": 1 }
+                },
+                "required": ["title", "subtitle"]
+              }
             },
-            "required": ["title", "subtitle"]
-          },
-          "footer": {
-            "type": "object",
-            "properties": {
-              "title": { "type": "string", "minLength": 1 },
-              "subtitle": { "type": "string", "minLength": 1 }
-            },
-            "required": ["title", "subtitle"]
+            "required": ["hero", "footer"]
           }
         },
-        "required": ["hero", "footer"]
+        "required": ["title", "path", "content"],
+        "additionalProperties": false
       }
     }
   }
