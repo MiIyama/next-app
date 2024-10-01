@@ -1,15 +1,59 @@
 {
   ":name": "FrontAid CMS Example with Next.js",
-  "title": { ":type": "line" },
+  "title": {":type": "line"},
   "index": {
-    "title": { ":type": "line" },
-    "content": { ":type": "text", ":richtext": true }
+    "title": {":type": "line"},
+    "content": {
+      "type": "object",
+      "properties": {
+        "hero": {
+          "type": "object",
+          "properties": {
+            "title": {":type": "line"},
+            "subtitle": {":type": "line"}
+          },
+          "required": ["title", "subtitle"]
+        },
+        "footer": {
+          "type": "object",
+          "properties": {
+            "title": {":type": "line"},
+            "subtitle": {":type": "line"}
+          },
+          "required": ["title", "subtitle"]
+        }
+      },
+      "required": ["hero", "footer"],
+      "additionalProperties": false
+    }
   },
   "pages": {
     ":items": {
-      "title": { ":type": "line" },
-      "path": { ":type": "line" },
-      "content": { ":type": "text", ":richtext": true }
+      "title": {":type": "line"},
+      "path": {":type": "line"},
+      "content": {
+        "type": "object",
+        "properties": {
+          "hero": {
+            "type": "object",
+            "properties": {
+              "title": {":type": "line"},
+              "subtitle": {":type": "line"}
+            },
+            "required": ["title", "subtitle"]
+          },
+          "footer": {
+            "type": "object",
+            "properties": {
+              "title": {":type": "line"},
+              "subtitle": {":type": "line"}
+            },
+            "required": ["title", "subtitle"]
+          }
+        },
+        "required": ["hero", "footer"],
+        "additionalProperties": false
+      }
     }
   }
 }
