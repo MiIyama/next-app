@@ -3,22 +3,7 @@
   ":description": "This is a simple example of a Hero and Footer components.",
   "hero": {
     ":description": "Hero section of the page",
-    ":type": "object",
-    "title": {
-      ":description": "Title of the hero section",
-      ":type": "line"
-    },
-    "subtitle": {
-      ":description": "Subtitle of the hero section",
-      ":type": "line"
-    }
-  },
-  "footer": {
-    ":description": "Footer section of the page",
-    ":type": "object",
-    "text": {
-      ":description": "Text of the footer section",
-      ":type": "line"
-    }
+    "title": { ":type": "line" },
+    "subtitle": { ":type": "text" }
   }
 }
