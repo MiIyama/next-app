@@ -1,9 +1,19 @@
 {
-  ":name": "FrontAid CMS Example Model",
-  ":description": "This is a simple example of a Hero and Footer components.",
-  "index": {
-    ":description": "Content for the index page",
-    "title": { ":type": "line" },
-    "text": { ":type": "text" }
+    ":name": "Example Website",
+    "name": {
+      ":description": "Website name",
+      ":type": "line"
+    },
+    "index": {
+      ":description": "Content for the index page",
+      "title": {":type": "line"},
+      "text":  {":type": "text"}
+    },
+    "blog": {
+      ":description": "List of blog posts",
+      ":items": {
+        "title": {":type": "line"},
+        "text":  {":type": "text"}
+      }
+    }
   }
-}

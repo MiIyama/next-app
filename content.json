@@ -1,6 +1,21 @@
 {
+  "name": "FrontAid CMS",
   "index": {
-    "title": "Bem-vindo ao Meu Projeto",
-    "text": "Esta é uma página simples usando componentes do Material-UI."
-  }
+    "title": "Agile Content Manage­ment with Git.",
+    "text": "FrontAid CMS is a decoupled and Git-based content management system."
+  },
+  "blog": [
+    {
+      "title": "Blog Post #1",
+      "text": "Lorem ipsum..."
+    },
+    {
+      "title": "Blog Post #2",
+      "text": "Dolor sit amet..."
+    },
+    {
+      "title": "Blog Post #3",
+      "text": "Consectetur adipisici elit..."
+    }
+  ]
 }
