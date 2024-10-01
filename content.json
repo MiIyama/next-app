@@ -1,23 +1,24 @@
 {
   ":name": "FrontAid CMS Example Model",
-  ":description": "This is a simple example of a FrontAid CMS model. You can change and extend it according to your needs, for example add new fields or restructure it. You can edit this file by cloning this repository and update it with your local editor and push it back into this Git repository. ",
-  "custom-field": {
-    ":description": "This example text is used as a description.",
-    ":type": "line"
-  },
-  "custom-object": {
-    "custom-line": {
+  ":description": "This is a simple example of a FrontAid CMS model for Hero and Footer components.",
+  "hero": {
+    ":description": "Hero section of the page",
+    ":type": "object",
+    "title": {
+      ":description": "Title of the hero section",
       ":type": "line"
     },
-    "custom-text": {
-      ":type": "text"
+    "subtitle": {
+      ":description": "Subtitle of the hero section",
+      ":type": "line"
     }
   },
-  "custom-list": {
-    ":items": {
-      "custom-list-item": {
-        ":type": "line"
-      }
+  "footer": {
+    ":description": "Footer section of the page",
+    ":type": "object",
+    "text": {
+      ":description": "Text of the footer section",
+      ":type": "line"
     }
   }
 }
