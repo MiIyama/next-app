@@ -11,13 +11,13 @@
       "path": { ":type": "line" },
       "content": {
         "properties": {
-          "hero": {
+          ":hero": {
             "properties": {
               "title": { "type": "string" },
               "subtitle": { "type": "string" }
             }
           },
-          "footer": {
+          ":footer": {
             "properties": {
               "title": { "type": "string" },
               "subtitle": { "type": "string" }
