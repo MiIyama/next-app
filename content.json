@@ -3,7 +3,7 @@
   "title": "My Project Title",
   "index": {
     "title": "Home Page",
-    "content": "<p>Welcome to our homepage! Here you'll find the latest news and updates.</p>"
+    "content": "<h1>Welcome to our homepage! Here you'll find the latest news and updates.</h1><p>xfgfd</p>"
   },
   "pages": [
     {
