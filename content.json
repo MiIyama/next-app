@@ -1,21 +1,24 @@
 {
-  "name": "FrontAid CMS",
+  "title": "FrontAid CMS with Next.js",
   "index": {
-    "title": "Agile Content Manage­ment with Git.",
-    "text": "FrontAid CMS is a decoupled and Git-based content management system."
+    "title": "Index Page",
+    "content": "<p>Some <strong>index</strong> content...</p>"
   },
-  "blog": [
+  "pages": [
     {
-      "title": "Blog Post #1",
-      "text": "Lorem ipsum..."
+      "title": "Foo Page",
+      "path": "/foo",
+      "content": "<p>Foo content...</p><h2>Heading</h2><p>Some <strong>other</strong> content...</p>"
     },
     {
-      "title": "Blog Post #2",
-      "text": "Dolor sit amet..."
+      "title": "Bar Page",
+      "path": "/bar",
+      "content": "<p><strong>Bar</strong> content...</p>"
     },
     {
-      "title": "Blog Post #3",
-      "text": "Consectetur adipisici elit..."
+      "title": "Baz Page",
+      "path": "/baz",
+      "content": "<p><strong>Baz</strong> content...</p>"
     }
   ]
 }

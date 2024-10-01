@@ -1,19 +1,16 @@
 {
-    ":name": "Example Website",
-    "name": {
-      ":description": "Website name",
-      ":type": "line"
-    },
+    ":name": "FrontAid CMS Example with Next.js",
+    "title": {":type": "line"},
     "index": {
-      ":description": "Content for the index page",
       "title": {":type": "line"},
-      "text":  {":type": "text"}
+      "content": {":type": "text", ":richtext": true}
     },
-    "blog": {
-      ":description": "List of blog posts",
+    "pages": {
       ":items": {
         "title": {":type": "line"},
-        "text":  {":type": "text"}
+        "path": {":type": "line"},
+        "content": {":type": "text", ":richtext": true}
       }
     }
   }
+  
