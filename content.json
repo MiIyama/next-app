@@ -1,24 +1,20 @@
 {
-  "title": "FrontAid CMS with Next.js",
+  ":name": "FrontAid CMS Example with Next.js",
+  "title": "My Project Title",
   "index": {
-    "title": "Index Page",
-    "content": "<p>Some <strong>index</strong> content...</p>"
+    "title": "Home Page",
+    "content": "<p>Welcome to our homepage! Here you'll find the latest news and updates.</p>"
   },
   "pages": [
     {
-      "title": "Foo Page",
-      "path": "/foo",
-      "content": "<p>Foo content...</p><h2>Heading</h2><p>Some <strong>other</strong> content...</p>"
+      "title": "About Us",
+      "path": "/about",
+      "content": "<p>Learn more about our company and what we do.</p>"
     },
     {
-      "title": "Bar Page",
-      "path": "/bar",
-      "content": "<p><strong>Bar</strong> content...</p>"
-    },
-    {
-      "title": "Baz Page",
-      "path": "/baz",
-      "content": "<p><strong>Baz</strong> content...</p>"
+      "title": "Contact",
+      "path": "/contact",
+      "content": "<p>Feel free to get in touch with us through this page.</p>"
     }
   ]
 }
