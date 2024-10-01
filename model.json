@@ -1,19 +1,18 @@
 {
   ":name": "FrontAid CMS Example with Next.js",
-  "title": {":type": "line"},
+  "title": { ":type": "line" },
   "index": {
-    "title": {":type": "line"},
-    "content": {":type": "text", ":richtext": true}
+    "title": { ":type": "line" },
+    "content": { ":type": "text", ":richtext": true }
   },
   "pages": {
     ":items": {
-      "title": {":type": "line"},
-      "path": {":type": "line"},
+      "title": { ":type": "line" },
+      "path": { ":type": "line" },
       "content": {
         "type": "object",
         "properties": {
           "hero": {
-            "type": "object",
             "properties": {
               "title": { "type": "string", "minLength": 1 },
               "subtitle": { "type": "string", "minLength": 1 }
@@ -21,7 +20,6 @@
             "required": ["title", "subtitle"]
           },
           "footer": {
-            "type": "object",
             "properties": {
               "title": { "type": "string", "minLength": 1 },
               "subtitle": { "type": "string", "minLength": 1 }
