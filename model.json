@@ -1,9 +1,9 @@
 {
   ":name": "FrontAid CMS Example Model",
   ":description": "This is a simple example of a Hero and Footer components.",
-  "hero": {
-    ":description": "Hero section of the page",
+  "index": {
+    ":description": "Content for the index page",
     "title": { ":type": "line" },
-    "subtitle": { ":type": "text" }
+    "text": { ":type": "text" }
   }
 }

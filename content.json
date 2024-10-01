@@ -1,6 +1,6 @@
 {
-  "hero": {
+  "index": {
     "title": "Bem-vindo ao Meu Projeto",
-    "subtitle": "Esta é uma página simples usando componentes do Material-UI."
+    "text": "Esta é uma página simples usando componentes do Material-UI."
   }
 }
