@@ -10,20 +10,26 @@
       "title": { ":type": "line" },
       "path": { ":type": "line" },
       "content": {
+        "type": "object",
         "properties": {
-          ":hero": {
+          "hero": {
+            "type": "object",
             "properties": {
-              "title": { "type": "string" },
-              "subtitle": { "type": "string" }
-            }
+              "title": { "type": "string", "minLength": 1 },
+              "subtitle": { "type": "string", "minLength": 1 }
+            },
+            "required": ["title", "subtitle"]
           },
-          ":footer": {
+          "footer": {
+            "type": "object",
             "properties": {
-              "title": { "type": "string" },
-              "subtitle": { "type": "string" }
-            }
+              "title": { "type": "string", "minLength": 1 },
+              "subtitle": { "type": "string", "minLength": 1 }
+            },
+            "required": ["title", "subtitle"]
           }
-        }
+        },
+        "required": ["hero", "footer"]
       }
     }
   }
